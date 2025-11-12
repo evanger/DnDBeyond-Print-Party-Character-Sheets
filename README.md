@@ -2,7 +2,7 @@
 
 ![GitHub last commit](https://img.shields.io/github/last-commit/FaithLilley/DnDBeyond-Live-Campaign?style=plastic&logo=github) ![GitHub repo size](https://img.shields.io/github/repo-size/FaithLilley/DnDBeyond-Live-Campaign?style=plastic) ![GitHub License](https://img.shields.io/github/license/FaithLilley/DnDBeyond-Live-Campaign?style=plastic) ![Static Badge](https://img.shields.io/badge/JavaScript-x?style=plastic&logo=javascript&color=%235b5b5b)
 
-![Live Update Campaign Page Splash](./images/live-update-campaign.png)
+![Live Update Campaign Page Splash](./images/live-update-campaign-print.png)
 
 **D&D Beyond Live-Update Campaign Page** is a script that allows you to view live data about each of the characters in a D&D Beyond campaign from the Campaign page itself.
 
