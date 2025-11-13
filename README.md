@@ -1,10 +1,10 @@
 # D&D Beyond Live-Update Campaign Page
 
-![GitHub last commit](https://img.shields.io/github/last-commit/FaithLilley/DnDBeyond-Live-Campaign?style=plastic&logo=github) ![GitHub repo size](https://img.shields.io/github/repo-size/FaithLilley/DnDBeyond-Live-Campaign?style=plastic) ![GitHub License](https://img.shields.io/github/license/FaithLilley/DnDBeyond-Live-Campaign?style=plastic) ![Static Badge](https://img.shields.io/badge/JavaScript-x?style=plastic&logo=javascript&color=%235b5b5b)
+ ![Static Badge](https://img.shields.io/badge/JavaScript-x?style=plastic&logo=javascript&color=%235b5b5b)
 
 ![Live Update Campaign Page Splash](./images/live-update-campaign-print.png)
 
-**D&D Beyond Live-Update Campaign Page** is a script that allows you to view live data about each of the characters in a D&D Beyond campaign from the Campaign page itself.
+**D&D Beyond Live-Update Campaign Page** is a script that allows you to view live data about each of the characters in a D&D Beyond campaign from the Campaign page itself, modified to also allow for printing the entire party on simplified character sheets.
 
 - [D\&D Beyond Live-Update Campaign Page](#dd-beyond-live-update-campaign-page)
   - [1. Prerequisites](#1-prerequisites)
@@ -36,7 +36,7 @@ Ensure you are running a browser extension that takes UserScripts (see Prerequis
 
 Click on the Install Script button below to install this user script to your browser extension, then follow the instructions from your browser extension.
 
-[![Live Update Campaign Page Splash](./images/install-button.png)](https://github.com/FaithLilley/DnDBeyond-Live-Campaign/raw/master/ddb-live-campaign.user.js) 
+[![Live Update Campaign Page Splash](./images/install-button.png)]([https://github.com/evanger/DnDBeyond-Live-Campaign-Print-Party-Character-Sheets/blob/master/ddb-live-campaign-print.user.js]
 
 ## 3. How to Use
 
@@ -52,25 +52,35 @@ You'll now see additional information displayed on the card of each character, s
 
 The data is automatically updated every 60 seconds.
 
+You will also see a "Print Party" button which will generate a new, simplified two-page character sheet for each party member. You can select the accent color for the character sheets. This new simplified sheet is based on that used on D&D Beyond for the D&D cartoon sample characters.
+
+(./images/sheet_sample.png)
+
 ## 4. What does it look like?
 
 This is how the character cards on the campaign page look with this script running.
 
-![Live Update Campaign Page Splash](./images/example-campaign.jpg)
+![Live Update Campaign Page Splash](./images/after_mods.png)
 
 ## 5. Credits
 
-Author: [Faith Elisabeth Lilley](https://github.com/FaithLilley) (aka Stormknight)
+Author: [Faith Elisabeth Lilley](https://github.com/FaithLilley) (aka Stormknight) and [Brent Evanger](https://github.com/evanger)
 
 Contributors: [@xander-hirst](https://github.com/xander-hirst)
 
-Project forked from [DNDBeyond-DM-Screen](https://github.com/TeaWithLucas/DNDBeyond-DM-Screen) by [TeaWithLucas](https://github.com/TeaWithLucas) - huge thanks for figuring out the DDB API code.
+Project forked from [DNDBeyond-Live-Campaign](https://github.com/FaithLilley/DnDBeyond-Live-Campaign/) by [Faith Elisabeth Lilley](https://github.com/FaithLilley) (aka Stormknight)
+
+Which was forked from [DNDBeyond-DM-Screen](https://github.com/TeaWithLucas/DNDBeyond-DM-Screen) by [TeaWithLucas](https://github.com/TeaWithLucas) - huge thanks for figuring out the DDB API code.
 
 ## 6. License
 
 This project uses the [MIT license](LICENSE.md).
 
 ## 7. Version Notes
+
+### v 1.2
+
+Modified version of Live Campaign featuring the "Print Party" button
 
 ### v 1.1.1
 
