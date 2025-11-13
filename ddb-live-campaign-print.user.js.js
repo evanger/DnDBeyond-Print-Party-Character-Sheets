@@ -7,8 +7,8 @@
 // @description		Provides live character data on the D&D Beyond campaign page
 // @author			Faith Elisabeth Lilley (aka Stormknight) & Brent Evanger
 // @match			https://www.dndbeyond.com/campaigns/*
-// @updateURL		https://github.com/FaithLilley/DnDBeyond-Live-Campaign/raw/master/ddb-live-campaign.user.js
-// @downloadURL		https://github.com/FaithLilley/DnDBeyond-Live-Campaign/raw/master/ddb-live-campaign.user.js
+// @updateURL		https://github.com/evanger/DnDBeyond-Live-Campaign-Print-Party-Character-Sheets/blob/master/ddb-live-campaign-print.user.js.js
+// @downloadURL		https://github.com/evanger/DnDBeyond-Live-Campaign-Print-Party-Character-Sheets/blob/master/ddb-live-campaign-print.user.js.js
 // @supportURL      https://github.com/evanger/DnDBeyond-Live-Campaign-Print-Party-Character-Sheets
 // @require			https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js
 // @require         https://media.dndbeyond.com/character-tools/vendors~characterTools.bundle.dec3c041829e401e5940.min.js
